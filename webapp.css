@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+
+.dashboard{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-columns: 80px 1fr 150px;
+    grid-gap: 20px;
+    height: 100vh;
+    grid-template-areas: 
+        "header header" 
+        "sidebar main"
+        "footer footer";
+}
+
+.header{
+    grid-area: header;
+    background-color: #333;
+    color: aliceblue;
+    text-align: center;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+
+.main{
+    grid-area: main;
+    background-color: aqua;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+}
+
+.widgets{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: bisque;
+    color: aliceblue;
+    padding: 20px;
+}

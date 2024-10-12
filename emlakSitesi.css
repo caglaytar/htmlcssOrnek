@@ -1,0 +1,94 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header .h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li{
+    margin: 15px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.hero p{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.hero .container a{
+    color: rgb(0,0,0);
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.hero .container{
+    text-align: center;
+}
+
+.featured-properties{
+    padding: 40px;
+    background-color: aliceblue;
+}
+
+.featured-properties .container{
+    max-width: 1200px;
+    margin: 0;
+}
+.featured-properties .container .h2{
+    font-size: 24px;
+}
+
+.property-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.property-item{
+    background-color: aqua;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.property-item img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: beige;
+    color: aqua;
+    text-align: center;
+    padding: 20px;
+}

@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    color: black;
+    margin-bottom: 30px;
+}
+
+.ilan{
+    background-color: aqua;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.ilan:hover{
+    transform: scale(1.02);/*üstüne gelince büyütüyor*/
+}
+
+.ilan-detay{
+    padding: 20px;
+    text-decoration: left;
+}
+
+.ilan-detay h3{
+    margin-top: 0;
+    color: black;
+}
+.ilan-detay p{
+    margin: 10;
+}
+
+.fiyat{
+    font-size: 18px;
+    font-weight: bold;
+    color: blueviolet;
+}

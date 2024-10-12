@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galerry-header{
+    background-color: brown;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.galerry-header h1{
+    margin: 0;
+    font-size: 36px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.photo{
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rebeccapurple;
+}
+@media screen {
+    .photo{
+        flex-basis: 100%;
+    }
+}

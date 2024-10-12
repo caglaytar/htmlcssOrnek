@@ -1,0 +1,33 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.store-header{
+    background-color: rgb(30, 179, 54);
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+
+.product-categories{
+    display: flex; /*Tablet-telefon-masaüstü aynı gözükmesi için*/
+    justify-content: space-around;
+    padding: 20px;
+    margin: 0;
+}
+
+.category-elektronik{
+    background-color: aqua;
+}
+
+.category-fashion{
+    background-color: aquamarine;
+}
+
+.category-home{
+    background-color: black;
+    color: white;
+}
